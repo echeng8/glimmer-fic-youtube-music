@@ -2,6 +2,10 @@
 
 A Chrome Extension that automatically plays songs from YouTube Music when detected in Glimmer Fic stories.
 
+## Demo
+
+[![Watch Demo](https://img.youtube.com/vi/hLx7RIsMfas/maxresdefault.jpg)](https://www.youtube.com/watch?v=hLx7RIsMfas)
+
 ## How It Works
 
 Write song tags in your stories:

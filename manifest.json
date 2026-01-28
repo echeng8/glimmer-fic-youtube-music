@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Glimmer Fic Music Player",
+  "version": "1.0",
+  "description": "Auto-plays songs from YouTube Music when detected in stories",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": [
+    "*://*.glimmerfics.com/*",
+    "*://music.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.glimmerfics.com/*"],
+      "js": ["content_glimmer.js"]
+    },
+    {
+      "matches": ["*://music.youtube.com/*"],
+      "js": ["content_yt_music.js"]
+    }
+  ]
+}
+

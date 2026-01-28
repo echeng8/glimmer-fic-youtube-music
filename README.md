@@ -1,2 +1,2 @@
-# glimmer-fic-spotify
-chrome extension to automatically play spotify song on glimmer fic 
+# glimmer-fic-youtube-music
+chrome extension to automatically play youtube music song from glimmer fic 
